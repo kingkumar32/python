@@ -5,6 +5,8 @@ DESCRIPTION : WAP to sort the string in alphabetical order.
 SAMPLE IP:  Enter the String: Python is easy
 SAMPLE OP:  Strings in Sorted Order:  easy is python
 """
-mainString=input("Enter the String: ").split().sort()
+
+mainstring=input().lower()
+mainString=mainstring.split()
 mainString.sort()
-print(" Strings in Sorted Order:",' '.join(mainString))
+print("Strings in Sorted Order:",' '.join(mainString))

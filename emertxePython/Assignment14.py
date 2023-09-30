@@ -8,8 +8,6 @@ SAMPLE OP:  Position of a given substring:  7
 """
 mainString=input()
 subString=mainString.split(",")
-if subString[1] in subString[0]:
-    print("Position of a given substring:",subString[0].index(subString[1]))
-else:
-    print("Position of a given substring: -1")
+print("Position of a given substring:",subString[0].find(subString[1]))
+
 
