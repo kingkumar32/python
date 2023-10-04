@@ -10,4 +10,4 @@ newCityNameList=[]
 for i in cityNameList:
     if len(i)>4:
         newCityNameList.append(i)
-print(newCityNameList)
+print("City names greater than or equal to 5 are:",newCityNameList)
